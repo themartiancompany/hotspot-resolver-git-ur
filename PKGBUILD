@@ -11,7 +11,7 @@ pkgname="${_pkgname}-git"
 pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1".r1.g"b686bcc490e5cdd720f8345cd39aeb180526d61c"
 pkgrel=1
 _pkgdesc=(
-  ""
+  "Resolve "
   "file clone tool"
 )
 pkgdesc="${_pkgdesc[*]}"
@@ -29,8 +29,8 @@ license=(
   AGPL3
 )
 depends=(
-  ffmpeg
   libcrash-bash
+  jq
 )
 makedepends=(
   make
